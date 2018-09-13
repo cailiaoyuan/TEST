@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    height:100px;
+    background-color: white;
+}
+.div1{
+    width:1200px;
+    margin:0 auto;
+}
+.div1 > img{
+    float:left;
+    width:300px;
+    height:80px;
+    margin:6px 80px;
+}
+.div2{
+    float:right;
+}
+.div2 > a{
+    display:block;
+    width:90px;
+    height:100px;
+    line-height: 100px;
+    float:left;
+    text-align:center;
+    color:gray;
+    text-decoration: none;
+}
+.img1 img{
+    width:100%;
+    height:600px;
+    position: relative;
+}
+.bgc{
+    background-color:black;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+    width:100%;
+    height:600px;
+    top:100px;
+}
+.word {
+    width:100%;
+    height:300px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top:350px;
+}
+.word p{
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size:50px;
+    color:white;
+    line-height: 100px;
+    font-weight: bolder ;
+}
+.word button{
+	margin-top: 50px;
+	background-color: #F5704F;
+	width: 200px;
+	height: 60px;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	border-radius: 8px;
+}
+.div3{
+    width:100%;
+    height:250px;
+    margin-top:50px;
+    margin-left:100px
+}
+.div3 dl{
+    width:150px;
+    height:250px;
+    float:left;
+    margin-left:180px;
+    text-align: center;
+}
+dt img{
+    width:70%;
+    height:70%;
+}
+dl dd:last-of-type{
+    text-align: center;
+    padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #7c7d7f;
+}
+.words{
+    width:100%;
+    height:100px;
+}
+.words p{
+    text-align: center;
+    font-style:italic;
+    font-size:25px;
+    color: #E19796;
+    font-family: "微软雅黑";
+}
+.div4{
+    width:1000px;
+    height:400px;
+    margin:40px auto;
+    text-align: center;
+}
+.div4 dl{
+    float:left;
+    padding:10px;
+}
+.div4 dl img{
+    width: 310px;
+	height: 260px;
+}
+.div4 dl dd:first-of-type{
+    padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #7c7d7f;
+}
+.div4 dl dd:last-of-type{
+    color: #BDBDBC;
+}
+.word2 p{
+	text-align: center;
+	padding-top: 0;
+	font-family: "微软雅黑";
+	padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+	color: #7c7d7f;
+}
+.div5{
+    width:1000px;
+    margin:0 auto;
+}
+.div5 dl{
+	width: 470px;
+    float: left;
+    padding:10px;
+    margin-right:10px;
+}
+.div5 dl dd{
+    padding-top: 30px;
+    text-align: left;
+}
+.div5 dl dt img{
+	width:470px; 
+	height:480px;
+}

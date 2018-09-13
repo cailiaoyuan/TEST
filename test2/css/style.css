@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    font-size:14px;
+}
+header{
+    height:80px;
+    background-color: black;
+}
+.div1{
+    width:1200px;
+    margin:0 auto;
+}
+header>.div1>a{
+    display:block;
+    float:left;
+    margin:5px 25px;
+}
+.div1 nav{
+    float:right;
+}
+.div1 nav a{
+    display:block;
+    width:110px;
+    height:73px;
+    float:left;
+    line-height:73px;
+    color:white;
+    text-align: center;
+    
+}
+.div1 nav a.home{background-color:#433b90 ;}
+.div1 nav a.course{background-color:#017fcb; }
+.div1 nav a.actual{background-color:#78b917 ;}
+.div1 nav a.plan{background-color:#feb800 ;}
+.div1 nav a.faq{background-color:#f27c01 ;}
+.div1 nav a.notes{background-color:#d40112;}
+.div1 nav a:hover,.div1 nav a.home{padding-bottom:7px;}
+
+.main{
+    width:1200px;
+    height:473px;
+    margin:34px auto 0;
+}
+.main aside{
+    width:450px;
+    float:left;   
+}
+.main article{
+    width:720px;
+    float:right;
+    overflow:hidden;
+}
+.main aside dl{
+    position:relative;
+    height:74px;
+    margin-bottom: 17px;
+}
+.main aside dt{
+    position:absolute;
+    top:-1px;
+    left:92px;
+    font-size: 14px;
+    text-decoration:underline;
+    line-height: 14px;
+    font-weight: bold;
+}
+aside>dl>dd:first-of-type{
+    position: absolute;
+    left:0;
+}
+aside>dl>dd:last-of-type{
+    position: absolute;
+    left:90px;
+    top: 17px;
+}
+article p{
+    margin-bottom:17px;
+}
+article img{
+    margin-bottom:15px;
+}
+footer{
+    height:64px;
+    background-color: black;
+}
+.div2{
+    width:1200px;
+    margin:0 auto;
+}
+.div2 p{
+    float:left;
+    color:white;
+    line-height: 64px;
+    margin-left:20px;
+}
+.div2 span{
+    float:right;
+}
+.div2 span img{
+    float:left;
+    margin:17px 7px;
+}
