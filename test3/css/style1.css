@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+}
+.div1{
+    width:462px;
+    height:332px;
+    border:1px solid gainsboro;
+    margin:100px auto;
+    position:relative;
+    background-color: white;
+}
+.div1 .time{
+    width:194px;
+    height:26px;
+    background-color: black;
+    position: absolute;
+    top:-2px;
+    left:134px;
+}
+.div1 .time p{
+    color:white;
+    font-size:14px;
+    text-align: center;
+    line-height: 26px;
+}
+.div1 .words{
+    width:388px;
+    margin:53px auto;
+}
+.div1 .words a{
+    color:grey;
+    line-height: 24px;
+    text-decoration:none;
+}
+.price{
+    height:36px;
+    position: absolute;
+    left:37px;
+}
+.price p{
+    color:black;
+    font-size:34px;
+    line-height: 36px;
+}
+.price p .yuan{
+    vertical-align: 6px;
+    font-size:20px;
+    color:black;
+}
+.price p .num{
+    font-size:12px;
+    color:grey;
+    margin-left:5px;
+    text-decoration:line-through;
+}
+.div1 .shoop{
+    width:106px;
+    height:36px;
+    background-color: #e81a62;
+    color:white;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    position: absolute;
+    right:37px;
+}
+.div1 .jimian{
+    height:45px;
+    width:120px;
+    position: absolute;
+    bottom:2px;
+    left:37px;
+    line-height: 45px;
+    font-size:15px;
+    color:grey;
+}
+.jimian span{
+    display: block;
+    float:left;
+}
+.jimian .jisu{
+    width:55px;
+    height:30px;
+    font-size:18px;
+    color:white;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(221, 52, 0);
+}
+.mianshui{
+    position:inherit;
+    top:-7px;
+    left:63px;
+}
+.div1 .num2{
+    position:absolute;
+    bottom:25px;
+    right:37px;
+}
+.div1 .num2 p span{
+    color:rgb(136, 124, 54);
+    font-size:20px;
+}
+
